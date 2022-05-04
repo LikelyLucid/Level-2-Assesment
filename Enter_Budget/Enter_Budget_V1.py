@@ -3,3 +3,4 @@ budget = input("Enter your budget: $")
 
 while budget != "":
     if budget.isdigit():
+        
