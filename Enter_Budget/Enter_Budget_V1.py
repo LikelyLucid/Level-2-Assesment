@@ -1,1 +1,1 @@
-budget = inpt
+budget = input("Enter your budget: ")
