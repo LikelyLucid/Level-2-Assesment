@@ -7,4 +7,5 @@ def check_float(number):
         return False
 
 budget = float(input("Enter your budget: $"))
+while 
 print(budget)
