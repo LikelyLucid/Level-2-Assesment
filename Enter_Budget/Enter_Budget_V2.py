@@ -6,9 +6,4 @@ def check_float(question):
         except ValueError:
             print("Please enter a valid number")
 
-budget = input("Enter your budget: $")
-while check_float(budget) == False:
-    print("Please enter a valid number")
-    budget = input("Enter your budget: $")
-budget = float(budget)
-print(budget)
+
