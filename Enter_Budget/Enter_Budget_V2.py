@@ -9,4 +9,4 @@ def check_float(question):
             print("Please enter a valid number")
 
 while True:
-print(check_float("What is your budget? "))
+    print(check_float("What is your budget? "))
