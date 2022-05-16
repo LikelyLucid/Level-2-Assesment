@@ -3,10 +3,7 @@ def check_float(question):
     while True:
         try:
             float_num = input(question)
-            if float_num == "X" or "x":
-                break
-            return float(float_num)
-
+            break
         except ValueError:
             print("Please enter a valid number")
 
