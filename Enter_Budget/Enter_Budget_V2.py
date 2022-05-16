@@ -6,6 +6,7 @@ def check_float(question):
             return float(float_num)
 
         except ValueError:
+            
             print("Please enter a valid number")
 
 print(check_float("What is your budget? "))
