@@ -3,7 +3,6 @@ def check_float(question):
     while True:
         try:
             float_num = input(question)
-
             return float(float_num)
 
         except ValueError:
