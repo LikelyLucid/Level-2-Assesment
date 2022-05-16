@@ -2,7 +2,7 @@
 def check_float(question):
     while True:
         try:
-            return float(input(question))
+            number float(input(question))
         except ValueError:
             print("Please enter a valid number")
 
