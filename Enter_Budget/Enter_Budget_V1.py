@@ -6,6 +6,7 @@ def check_float(number):
     except ValueError:
         return False
 
+
 budget = input("Enter your budget: $")
 while check_float(budget) == False:
     print("Please enter a valid number")
