@@ -1,4 +1,4 @@
-import rich_formatting as rf
+import rich as rf
 
 def main():
     budget = enter_budget()
