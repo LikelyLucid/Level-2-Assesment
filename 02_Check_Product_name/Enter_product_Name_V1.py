@@ -3,7 +3,7 @@ def Check_Blank(question):
     while True:
         text = input(question)
         if text.isalpha() == True:
-            re
+            return text
 
 
 while True:
