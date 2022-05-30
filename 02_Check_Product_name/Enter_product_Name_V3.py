@@ -7,7 +7,6 @@ def Check_Blank(question):
         if text != "":  # if text isn't empty then return it
             if text.isnumeric() == False:
                 return text
-            return text
         else:  # if text is empty then ask again
             print("Please enter a valid name.")
 
