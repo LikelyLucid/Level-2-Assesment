@@ -2,7 +2,7 @@
 def Check_Blank(question):
     while True:
         try:
-            float_num = input(question)
+            input
             return float(float_num)
 
         except ValueError:
