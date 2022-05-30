@@ -3,7 +3,7 @@ def Check_Blank(question):
     while True:
         try:
             text = input(question)
-            return float(float_num)
+            
 
         except ValueError:
             print("Please enter a valid number")
