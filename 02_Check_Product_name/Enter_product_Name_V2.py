@@ -4,7 +4,7 @@ def Check_Blank(question):
         text = input(question) # ask question
         if text != "": # if text isnt empty then return it
             return text
-        else: 
+        else: # if text is empty then ask again
             print("Please enter a valid name.")
 
 
