@@ -2,7 +2,7 @@
 def Check_Blank(question):
     while True:
         text = input(question)
-        if 
+        if text
 
 
 while True:
