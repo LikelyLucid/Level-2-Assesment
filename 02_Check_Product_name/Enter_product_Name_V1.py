@@ -1,4 +1,4 @@
-# ask user for Product name
+# ask user for Product name and if its empty 
 def check_float(question):
     while True:
         try:
