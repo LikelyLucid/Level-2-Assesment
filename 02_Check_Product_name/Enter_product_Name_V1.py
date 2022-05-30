@@ -1,4 +1,4 @@
-# ask user for budget and if its an interger then convert it to float.
+# ask user for Product name
 def check_float(question):
     while True:
         try:
