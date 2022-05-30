@@ -9,4 +9,4 @@ def Check_Blank(question):
 
 
 while True:
-    print(check_float("What is your budget? "))
+    print(
