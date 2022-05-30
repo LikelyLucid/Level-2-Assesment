@@ -2,10 +2,7 @@
 def Check_Blank(question):
     while True:
         text = input(question)
-        if text.isalpha() == True:
-            return text
-        else:
-            print("Please enter a valid name.")
+        if text !
 
 
 while True:
