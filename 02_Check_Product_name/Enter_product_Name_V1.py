@@ -1,5 +1,5 @@
 # ask user for Product name and if its empty then ask again.
-def check_float(question):
+def Check(question):
     while True:
         try:
             float_num = input(question)
