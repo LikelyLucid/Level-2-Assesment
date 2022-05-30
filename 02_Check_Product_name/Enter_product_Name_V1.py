@@ -1,7 +1,7 @@
 # ask user for Product name and if its empty then ask again.
-def Check_Blank(question): 
+def Check_Blank(question):
     while True:
-        text = input(question)
+        text = input(question) 
         if text.isalpha() == True:
             return text
         else:
