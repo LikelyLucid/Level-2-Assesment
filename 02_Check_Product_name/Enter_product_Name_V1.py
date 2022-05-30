@@ -2,10 +2,7 @@
 def Check_Blank(question):
     while True:
         text = input(question)
-
-
-        except ValueError:
-            print("Please enter a valid number")
+        if 
 
 
 while True:
