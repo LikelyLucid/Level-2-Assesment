@@ -4,7 +4,7 @@ def Check_Blank(question):
         text = input(question) # ask question
         if text.isalpha() == True: # if text contains only letters then return it
             return text
-        else:
+        else: # if not then ask again
             print("Please enter a valid name.")
 
 
