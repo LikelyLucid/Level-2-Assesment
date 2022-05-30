@@ -9,4 +9,4 @@ def Check_Blank(question):
 
 
 while True:
-    print(
+    print(Check_Blank("What is your product name? "))
