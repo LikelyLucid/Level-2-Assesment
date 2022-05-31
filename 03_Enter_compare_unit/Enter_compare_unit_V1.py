@@ -8,6 +8,4 @@
 """
 def check_unit(unit):
     if unit.isnumeric() == True:
-        return False
-    else:
-        return True
+        return F
