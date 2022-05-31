@@ -21,4 +21,5 @@ def check_unit(unit):
                     unit = unit.replace("ml", "")
                     unit = unit * 1000
                     print(unit)
+                    re
 check_unit("15mg")
