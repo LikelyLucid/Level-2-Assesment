@@ -17,7 +17,7 @@ def check_unit(unit):
         if (char.isdigit() for char in unit):
             print("has numbers")
             if "L" or "mg" or "g" or "ml" in unit:
-                if 
+                if "L"
 
 
 check_unit("15mg")
