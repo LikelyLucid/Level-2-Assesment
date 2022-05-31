@@ -11,5 +11,4 @@ print(list)
 high = 0
 
 for item in list:
-    if sum(item) > high:
-        high = sum(item)
+    item[0]
