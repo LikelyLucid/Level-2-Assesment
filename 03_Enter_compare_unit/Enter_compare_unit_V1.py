@@ -21,4 +21,4 @@ def check_unit(unit):
                 return unit
 
 
-check_unit("15mg")
+check_unit("15  MG")
