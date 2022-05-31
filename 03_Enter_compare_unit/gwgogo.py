@@ -10,6 +10,6 @@ print(list)
 
 high = 0
 
-for item in list:
+for item in list[1]:
     if sum(item) > high:
         high = sum(item)
