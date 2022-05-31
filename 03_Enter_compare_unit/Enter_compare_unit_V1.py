@@ -3,4 +3,4 @@
 
 def check_unit(unit):
     while True:
-        if (unit.isn)
+        if (unit.isnumeric)
