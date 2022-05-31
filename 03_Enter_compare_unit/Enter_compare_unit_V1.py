@@ -10,4 +10,4 @@ an expected input is 15mg and the expected output is 0.015kg
 """
 
 def check_unit(unit):
-    if (for unit )
+    if (char.isdigit() for char in inputString)
