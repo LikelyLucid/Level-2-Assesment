@@ -20,5 +20,5 @@ def check_unit(unit):
                     unit = unit.replace("mg", "")
                     unit = unit.replace("ml", "")
                     unit = float(unit)
-                    unit = unit / 1000
+                    unit = unit * 1000
                     print(unit)
