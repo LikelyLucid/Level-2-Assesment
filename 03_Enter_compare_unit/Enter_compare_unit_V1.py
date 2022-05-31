@@ -1,1 +1,1 @@
-#ask user to enter unit, 
+#ask user to enter unit, check if unit contains 
