@@ -18,4 +18,4 @@ for item in list:
         best = item
 
 
-print()
+print(best)
