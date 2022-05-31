@@ -1,1 +1,1 @@
-#ask user to enter unit, check if unit contains numbers, if it 
+#ask user to enter unit, check if unit contains numbers, if it does then continue
