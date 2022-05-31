@@ -3,7 +3,7 @@ list = []
 
 for i in range 5:
     value1 = random.randint(1, 10)
-    val
+    value2 = random.randint(1, 10)
 high = 0
 for item in list:
     if
