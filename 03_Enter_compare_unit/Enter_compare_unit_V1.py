@@ -8,4 +8,4 @@ def check_unit(unit):
         else:
             print("Please enter a valid unit")
 
-def 
+check_
