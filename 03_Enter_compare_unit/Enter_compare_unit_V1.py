@@ -22,3 +22,4 @@ def check_unit(unit):
                     unit = float(unit)
                     unit = unit * 1000
                     print(unit)
+check_unit("15mg")
