@@ -6,5 +6,4 @@ def check_unit(unit):
         if (unit.isnumeric() for unit in unit) True:
             return unit
         else:
-            
-            
+        
