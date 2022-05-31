@@ -1,4 +1,4 @@
-# ask user for budget and if its an interger then convert it to float.
+# ask user for budget and if its an integer then convert it to float.
 def check_float(number):
     try:
         float(number)
