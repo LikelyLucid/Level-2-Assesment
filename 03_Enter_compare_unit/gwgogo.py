@@ -10,7 +10,7 @@ print(list)
 
 high = 0
 
-for item in list: # rep
+for item in list: # repeat for each item in list
     itemval = item[0]
     print(itemval)
     if itemval > high:
