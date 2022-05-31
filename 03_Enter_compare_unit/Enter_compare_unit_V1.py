@@ -9,11 +9,15 @@
 an expected input is 15mg and the expected output is 0.015kg
 """
 
+from distutils.command.check import check
+
+
 def check_unit(unit):
     while True:
         if (char.isdigit() for char in unit):
             print("has numbers")
             if unit.isalpha():
                 print("has letters")
-                
 
+
+check_unit("15mg")
