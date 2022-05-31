@@ -11,4 +11,4 @@ print(list)
 high = 0
 
 for item in list:
-    item[0]
+    item = item[0]
