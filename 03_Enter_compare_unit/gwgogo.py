@@ -1,4 +1,4 @@
-list = [, "8.49", "5"]
+list = []
 high = 0
 for item in list:
     if
