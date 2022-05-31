@@ -19,7 +19,7 @@ def check_unit(unit):
                 if "mg" or "ml" in unit.lower():
                     unit = unit.replace("mg", "")
                     unit = unit.replace("ml", "")
-                    unit = int(unit * 1000
+                    unit = int(unit) * 1000
                     print(unit)
                     return unit
 check_unit("15mg")
