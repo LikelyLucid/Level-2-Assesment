@@ -13,7 +13,7 @@ high = 0
 for item in list:
     itemval = item[0]
     print(itemval)
-    if item > high:
+    if itemval > high:
         high = item
 
 print
