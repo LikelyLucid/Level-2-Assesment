@@ -3,7 +3,7 @@
 
 def check_unit(unit):
     while True:
-        if (unit.isdigit()() for unit in unit) == False:
+        if (unit.isdigit() for unit in unit) == False:
             return unit
         else:
             print("Please enter a valid unit")
