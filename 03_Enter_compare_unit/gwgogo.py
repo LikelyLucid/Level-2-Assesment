@@ -11,7 +11,7 @@ print(list)
 high = 0
 
 for item in list: # repeat for each item in list
-    itemval = item[0]
+    itemval = item[0] # grab the first number in the list
     print(itemval)
     if itemval > high:
         high = itemval
