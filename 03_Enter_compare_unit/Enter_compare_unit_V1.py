@@ -7,5 +7,4 @@
 6. If unit is "mg" or "g" or "ml" then convert to Kg and L respectively
 """
 def check_unit(unit):
-    if unit.isnumeric() == True:
-        return
+    
