@@ -18,7 +18,7 @@ def check_unit(unit):
             print("has numbers")
             if "L" or "mg" or "g" or "ml" in unit:
                 print("has unit")
-                return unit
+                
 
 
 check_unit("15mg")
