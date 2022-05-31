@@ -14,6 +14,8 @@ for item in list:
     itemval = item[0]
     print(itemval)
     if itemval > high:
-        high = item
+        high = itemval
+        
+
 
 print
