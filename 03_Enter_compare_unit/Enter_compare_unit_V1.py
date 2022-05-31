@@ -2,9 +2,4 @@
 
 def check_unit(unit):
     unit = unit.upper()
-    if unit == "L" or unit == "KG":
-        return unit
-    elif unit.isnumeric() == True:
-        return unit
-    else:
-        return False
+    if unit
