@@ -17,4 +17,4 @@ def check_unit(unit):
             print("has numbers")
             if "kg" or "l" or "mg" or "g" or "ml" in unit.lower():
                 if "mg" or "ml" in unit.lower():
-                    
+                    unit 
