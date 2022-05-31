@@ -6,6 +6,6 @@
 5. If letters are empty then go to step 1
 6. If unit is "mg" or "g" or "ml" then convert to Kg and L respectively
 
-an expected input is 15
+an expected input is 15mg and the expected output is 
 """
 def check_unit(unit):
