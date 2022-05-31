@@ -9,7 +9,6 @@
 an expected input is 15mg and the expected output is 0.015kg
 """
 
-from distutils.command.check import check
 
 
 def check_unit(unit):
@@ -19,4 +18,3 @@ def check_unit(unit):
             if "kg" or "l" or "mg" or "g" or "ml" in unit.lower():
                 if "mg" or "ml" in unit.lower():
                     print("convert to ml")
-                    
