@@ -13,5 +13,7 @@ def check_unit(unit):
     while True:
         if (char.isdigit() for char in unit):
             print("has numbers")
-            if 
+            if unit.isalpha():
+                print("has letters")
+                
 
