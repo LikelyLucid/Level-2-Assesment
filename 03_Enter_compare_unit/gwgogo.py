@@ -12,8 +12,8 @@ high = 0
 
 for item in list: # repeat for each item in list
     itemval = item[1] # grab the first number in the list
-    print(itemval)
-    print(item)
+    # print(itemval)
+    # print(item)
     if itemval > high:
         high = itemval
         best = item
