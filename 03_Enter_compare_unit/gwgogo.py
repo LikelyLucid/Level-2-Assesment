@@ -8,4 +8,3 @@ for i in range(5):
     list.append([value1, value2, value3])
 print(list)
 high = 0
-for item in list:
