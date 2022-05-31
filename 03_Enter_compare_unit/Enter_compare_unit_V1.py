@@ -3,4 +3,5 @@
 
 def check_unit(unit):
     while True:
-        if (unit.isnumeric() for )
+        if (unit.isnumeric() for unit in unit) == False:
+            return unit
