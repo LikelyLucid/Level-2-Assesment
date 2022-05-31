@@ -15,7 +15,7 @@ for item in list:
     print(itemval)
     if itemval > high:
         high = itemval
-        
+        best = item
 
 
 print
