@@ -14,4 +14,4 @@ def check_unit(unit):
     #check if unit has numbers in it
     if unit.isdigit():
         # check if unit has letters in it
-        if unit
+        
