@@ -14,3 +14,4 @@ def check_unit(unit):
     #check if unit has numbers in it
     if any(char.isdigit() for char in unit):
         #get the letters from the unit
+        
