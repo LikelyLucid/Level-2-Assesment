@@ -17,4 +17,4 @@ def check_unit(unit):
     :return:
     """
     if any(char.isdigit() for char in unit):
-        print("Unit has numbers in it")
+        
