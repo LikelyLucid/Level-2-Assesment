@@ -8,4 +8,5 @@ def get_unit():
             break
 
     while True:
+        amount = input("Enter the amount: ")
         
