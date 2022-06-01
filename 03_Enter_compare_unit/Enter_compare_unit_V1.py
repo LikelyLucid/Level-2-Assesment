@@ -19,3 +19,5 @@ def get_unit():
         amount = amount / 1000
 
     return unit, amount
+
+print(get_unit())
