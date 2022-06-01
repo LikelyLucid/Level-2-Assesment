@@ -26,5 +26,5 @@ def check_unit(unit):
             else:
                 print("No Unit")
         else:
-            print("No Nimber")
+            print("No Number")
 check_unit("15")
