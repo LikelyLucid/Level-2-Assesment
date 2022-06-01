@@ -11,4 +11,4 @@ an expected input is 15mg and the expected output is 0.015kg
 
 
 def check_unit(unit):
-    
+    #check if unit has numbers in it
