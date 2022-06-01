@@ -17,4 +17,8 @@ def check_unit(unit):
         if "kg" or "g" or "ml" or "L" in unit:
             if "ml" or "g" in unit:
                 # divide by 1000 to convert to Kg or L
-                
+                unit = unit.replace("ml", "")
+                unit = unit.replace("g", "")
+                unit = unit.replace(" ", "")
+                unit = float(unit) / 1000
+                print(unit)
