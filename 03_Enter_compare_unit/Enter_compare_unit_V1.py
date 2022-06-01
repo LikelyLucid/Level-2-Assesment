@@ -9,4 +9,5 @@ def get_unit():
 
     while True:
         amount = input("Enter the amount: ")
-        if amount
+        if amount.isnumeric():
+            break
