@@ -16,11 +16,9 @@ def check_unit(unit):
         if (char.isdigit() for char in unit):
             print("has numbers")
             if "kg" or "l" or "mg" or "g" or "ml" in unit.lower():
-                if "mg" or "ml" in unit.lower():
-                    unit = unit.replace("mg", "")
-                    unit = unit.replace("ml", "")
-                    unit = int(unit) / 1000
-                    print(unit)
-                    return unit
-                else: return unit
+                unit = unit.replace("mg", "")
+                unit = unit.replace("ml", "")
+                unit = int(unit) / 1000
+                print(unit)
+                return unit
 check_unit("15mg")
