@@ -22,5 +22,5 @@ def check_unit(unit):
                     unit = int(unit) / 1000
                     print(unit)
                     return unit
-                else
+                else: return unit
 check_unit("15mg")
