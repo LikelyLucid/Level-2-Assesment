@@ -17,6 +17,4 @@ def check_unit(unit):
     :return:
     """
     if any(char.isdigit() for char in unit):
-        return True
-    else:
-        return False
+        print()
