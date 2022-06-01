@@ -11,4 +11,12 @@ an expected input is 15mg and the expected output is 0.015kg
 
 
 def check_unit(unit):
-    
+    """
+    Check if unit has numbers in it, if so then continue to step 4
+    :param unit:
+    :return:
+    """
+    if any(char.isdigit() for char in unit):
+        return True
+    else:
+        return False
