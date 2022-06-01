@@ -22,3 +22,6 @@ def check_unit(unit):
                 unit = unit.replace(" ", "")
                 unit = float(unit) / 1000
                 print(unit)
+
+
+check_unit()
