@@ -18,5 +18,3 @@ def check_unit(unit):
     """
     if any(char.isdigit() for char in unit):
         print("Unit has numbers in it")
-
-check_unit("kg")
