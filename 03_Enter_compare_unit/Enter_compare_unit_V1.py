@@ -24,4 +24,4 @@ def check_unit(unit):
                 print(unit)
 
 
-check_unit()
+check_unit("10ml")
