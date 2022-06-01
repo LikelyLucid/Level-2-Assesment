@@ -1,2 +1,2 @@
 def get_unit():
-    unit = input("Enter the unit\n: ")
+    unit = input("Enter the unit\nKg: ")
