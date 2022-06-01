@@ -11,3 +11,4 @@ def get_unit():
         amount = input("Enter the amount: ")
         if amount.isnumeric():
             break
+        
