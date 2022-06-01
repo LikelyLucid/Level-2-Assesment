@@ -14,5 +14,5 @@ def check_unit(unit):
     #check if unit has numbers in it
     if any(char.isdigit() for char in unit):
         #check if unit has "kg", "g", "ml" or "L" in it
-        if "kg" in unit or "g" or "ml" or "L" in unit:
+        if "kg" or "g" or "ml" or "L" in unit:
             return True
