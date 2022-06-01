@@ -23,4 +23,4 @@ def check_unit(unit):
         unit = input("Enter a unit: ")
 
 
-print(check_unit("10"))
+print(check_unit("10kg"))
