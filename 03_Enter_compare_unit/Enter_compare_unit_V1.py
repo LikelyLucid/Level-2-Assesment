@@ -1,4 +1,4 @@
 
 def get_unit():
-    e
+    while unit!
     unit = input("Enter the unit\nKg, L, ml, g: ").lower()
