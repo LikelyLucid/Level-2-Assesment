@@ -16,7 +16,7 @@ def get_unit():
             print("Invalid amount")
 
     if unit == "ml" or unit == "g":
-        amount = int(amount / 1000
+        amount = int(amount) / 1000
 
     return unit, amount
 
