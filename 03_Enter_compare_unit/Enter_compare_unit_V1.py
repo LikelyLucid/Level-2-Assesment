@@ -18,7 +18,8 @@ def get_unit():
     if unit == "ml" or unit == "g":
         amount = int(amount) / 1000
         if unit == "g":
-            unit == kg
+            unit == "kg"
+        else:
 
     return unit, amount
 
