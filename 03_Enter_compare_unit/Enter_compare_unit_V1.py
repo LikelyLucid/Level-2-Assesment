@@ -15,7 +15,7 @@ def check_unit(unit):
         if (char.isdigit() for char in unit):
             print("has numbers")
             if "kg" or "l" in unit.lower():
-                print
+                print("has kg or l")
             else:
                 print("No Unit")
         else:
