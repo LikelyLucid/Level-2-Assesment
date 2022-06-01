@@ -28,4 +28,4 @@ def check_unit(unit):
         print("No Number")
 
 
-print(check_unit("10"))
+print(check_unit("10kg"))
