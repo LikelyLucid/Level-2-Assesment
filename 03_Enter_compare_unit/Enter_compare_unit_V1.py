@@ -30,4 +30,4 @@ def check_unit(unit):
         unit = input("Enter a unit: ")
 
 
-check_unit("15")
+check_unit("")
