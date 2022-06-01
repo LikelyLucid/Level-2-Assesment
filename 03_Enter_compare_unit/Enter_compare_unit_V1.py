@@ -11,15 +11,23 @@ an expected input is 15mg and the expected output is 0.015kg
 
 
 def check_unit(unit):
-    if (char.isdigit() for char in unit):
-        print("has numbers")
-        if "kg" in unit.lower():
-            print("has kg or l")
+    while True:
+        if (char.isdigit() for char in unit):
+            print("has numbers")
+            if "kg" or "l" or "mg" or "g" or "ml" in unit.lower():
+                if "mg" or "ml" in unit.lower():
+                    unit = unit.replace("mg", "")
+                    unit = unit.replace("ml", "")
+                    unit = int(unit) / 1000
+                    print(unit)
+                    return unit
+                else:
+                    return unit
+            else:
+                print("No Unit")
         else:
-            print("No Unit")
-    else:
-        print("No Number")
-    unit = input("Enter a unit: ")
+            print("No Number")
+        unit = input("Enter a unit: ")
 
 
-print(check_unit("10kg"))
+print(check_unit("10"))
