@@ -1,4 +1,3 @@
-
 def get_unit():
 
     while True:
@@ -23,5 +22,6 @@ def get_unit():
             unit == "l"
 
     return unit, amount
+
 
 print(get_unit())
