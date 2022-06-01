@@ -15,4 +15,4 @@ def get_unit():
         else:
             print("Invalid amount")
 
-    if unit == "ml" or unit == ""
+    if unit == "ml" or unit == "g"
