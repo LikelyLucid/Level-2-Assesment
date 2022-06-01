@@ -13,4 +13,4 @@ an expected input is 15mg and the expected output is 0.015kg
 def check_unit(unit):
     #check if unit has numbers in it
     if any(char.isdigit() for char in unit):
-        #check if unit has "kg", 
+        #check if unit has "kg", "g", "ml" or "L"
