@@ -20,6 +20,7 @@ def get_unit():
         if unit == "g":
             unit == "kg"
         else:
+            unit == "l"
 
     return unit, amount
 
