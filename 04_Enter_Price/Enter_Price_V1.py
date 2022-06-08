@@ -3,6 +3,6 @@ def check_price():
         try:
             price = float(input("Enter the price: "))
             break
-        
+        el
 
 check_price()
