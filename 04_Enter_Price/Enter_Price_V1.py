@@ -4,6 +4,6 @@ def check_price():
             price = float(input("Enter the price: "))
             break
         except ValueError:
-            
+            prin
 
 check_price()
