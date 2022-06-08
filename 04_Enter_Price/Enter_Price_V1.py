@@ -5,5 +5,6 @@ def check_price():
             break
         except ValueError:
             print("\nInvalid price\n")
+        
 
 check_price()
