@@ -1,4 +1,5 @@
 def check_price():
     while True:
         price = float(input("Enter the price: "))
-        #if the price contains numbers then 
+        #if the price contains numbers then it will return the price
+        if 
