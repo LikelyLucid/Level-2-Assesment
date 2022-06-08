@@ -7,4 +7,4 @@ def check_price():
             print("\nInvalid price\n")
     return price
 
-check_price()
+price = check_price()
