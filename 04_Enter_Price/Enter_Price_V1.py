@@ -8,3 +8,4 @@ def check_price():
     return price
 
 price = check_price()
+print()
