@@ -1,4 +1,4 @@
-list = [("banana", "g", "1", "1.50"),("coffee", "g", "1", "3")]
+list = [("banana", "g", "3", "1.50"),("coffee", "g", "1", "3")]
 
 def calc_price(list):
     new_list = []
