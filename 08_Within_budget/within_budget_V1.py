@@ -15,7 +15,7 @@ def sort_list_budget(list, budget):
     budget = float(budget)
     for item in list:
         cost = float(item[3])
-        print(cost)
+        if cost 
 
 
 sort_list_budget(list, budget)
