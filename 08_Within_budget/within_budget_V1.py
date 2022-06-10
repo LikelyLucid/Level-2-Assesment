@@ -7,4 +7,4 @@ list = [('banana', 'g', '3', '1.50', 0.5), ('Tuy', 'g', '2', '5', 2.5), ('coffee
 
 def sort_list_budget(list, budget):
     for item in list:
-        print(item)
+        print(item[])
