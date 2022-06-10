@@ -9,3 +9,4 @@ def search_csv(Item):
                 return row
     return None
 
+print(search_csv('Banana'))
