@@ -11,4 +11,4 @@ def calc_price(list):
         new_list.append(item)
     return new_list
 
-print(calc_price(list))
+def 
