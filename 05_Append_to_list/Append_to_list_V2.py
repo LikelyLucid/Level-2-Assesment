@@ -14,3 +14,4 @@ def append_list(Item, Unit, Weight, Price):
         writer.writerow(data)
 
 append_list('Banana', 'g', '1', '1.50')
+append
