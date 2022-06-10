@@ -11,4 +11,8 @@ def calc_price(list):
         new_list.append(item)
     return new_list
 
-def 
+def sort_list(list):
+    #sort the list by the price
+    new_list = calc_price(list)
+    new_list.sort(key=lambda x: x[4])
+    return new_list
