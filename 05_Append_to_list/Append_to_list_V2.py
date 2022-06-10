@@ -8,7 +8,6 @@ def append_list(Item, Unit, Weight, Price):
         "Price": Price
     }
     with open('Items.csv', 'a') as outfile:
-        writer = csv.writer(outfile)
-        writer.writerow([data["Item"], data["Unit"], data["Weight"], data["Price"]])
+        
 
 append_list('Banana', 'g', '1', '1.50')
