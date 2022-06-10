@@ -8,4 +8,4 @@ def calc_price(list):
         item = item + (price/weight,)
 
 
-print(calc_price(list)
+print(calc_price(list))
