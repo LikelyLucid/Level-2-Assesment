@@ -10,7 +10,8 @@ def search_csv(Item):
     return None
 
 print(search_csv('Banana'))
-if search_csv('Banana') is None:
+item
+if  is None:
     print('Item not found')
 else:
     print("item:" r)
