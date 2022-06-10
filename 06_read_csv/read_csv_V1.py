@@ -17,4 +17,4 @@ else:
     print("item:", item[0])
     print("unit:", item[1])
     print("weight:", item[2])
-    print()
+    print("price:", item[3])
