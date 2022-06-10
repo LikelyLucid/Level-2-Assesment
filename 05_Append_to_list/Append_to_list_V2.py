@@ -1,6 +1,6 @@
 import csv
 def append_list(Item, Unit, Weight, Price):
-    #append items to Items.json
+    #append items to Items.csv
     data = {
         "Item": Item,
         "Unit": Unit,
