@@ -1,4 +1,4 @@
-import csv
+import csv import writer
 def append_list(Item, Unit, Weight, Price):
     #append items to Items.csv
     data = {
@@ -7,4 +7,3 @@ def append_list(Item, Unit, Weight, Price):
         "Weight": Weight,
         "Price": Price
     }
-    
