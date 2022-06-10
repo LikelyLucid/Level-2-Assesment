@@ -8,6 +8,6 @@ list = [('banana', 'g', '3', '1.50', 0.5), ('Tuy', 'g', '2', '5', 2.5), ('coffee
 def sort_list_budget(list, budget):
     for item in list:
         cost = float(item[3])
-        print([item[3])
+        print(cost)
 
 sort_list_budget(list, budget)
