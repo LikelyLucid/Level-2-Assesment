@@ -6,4 +6,4 @@ def calc_price(list):
         item_price = float(item[3])/float(item[2])
         item = item + (item_price,)
     return list
-print
+print(calc_price(list))
