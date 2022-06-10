@@ -4,7 +4,7 @@ def calc_price(list):
     #append to each tuple the price using the price divided by the weight
     for item in list:
         print(item[3], item[2])
-        price = int(item[3])
+        price = floatritem[3])
         weight = item[2]
 
 calc_price(list)
