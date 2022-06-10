@@ -1,6 +1,5 @@
 import csv
 
-from black import NewLine
 def append_list(Item, Unit, Weight, Price):
     #append items to Items.csv
     data = {
