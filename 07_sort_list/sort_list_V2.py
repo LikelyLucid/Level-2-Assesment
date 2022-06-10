@@ -1,3 +1,5 @@
+list = [("banana", "g", "3", "1.50"),("coffee", "g", "1", "3"),("Tuy", "g", "2", "5")]
+
 def sort_list(list):
     new_list = []
     for item in list:
