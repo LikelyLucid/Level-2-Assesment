@@ -1,4 +1,6 @@
 import csv
+
+from black import NewLine
 def append_list(Item, Unit, Weight, Price):
     #append items to Items.csv
     data = {
@@ -8,7 +10,7 @@ def append_list(Item, Unit, Weight, Price):
         "Price": Price
     }
     with open('Items.csv', 'a') as outfile:
-        writer = csv.DictWriter(outfile, fieldnames=data.keys(), newline)
+        writer = csv.DictWriter(outfile, fieldnames=data.keys(), NewLine)
         writer.writerow(data)
 
 append_list('Banana', 'g', '1', '1.50')
