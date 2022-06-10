@@ -26,3 +26,4 @@ def sort_list_budget(list, budget):
 
 within, outside = sort_list_budget(list, budget)
 print(within)
+print(outside)
