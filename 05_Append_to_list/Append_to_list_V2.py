@@ -11,4 +11,4 @@ def append_list(Item, Unit, Weight, Price):
         writer = csv.writer(outfile)
         writer.writerow(data.values())
 
-append
+append_list()
