@@ -5,7 +5,7 @@ def search_csv(Item):
     with open('Items.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
-            if row['A'] == Item:
+            if row[] == Item:
                 return row
     return None
 
