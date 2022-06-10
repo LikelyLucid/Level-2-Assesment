@@ -13,4 +13,4 @@ print(search_csv('Banana'))
 if search_csv('Banana') is None:
     print('Item not found')
 else:
-    print("item:" )
+    print("item:" row[])
