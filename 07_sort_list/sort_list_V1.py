@@ -5,4 +5,4 @@ def calc_price(list):
     for item in list:
         item = list.append(item[3]/item[2])
     return list
-print
+print(calc_price(list))
