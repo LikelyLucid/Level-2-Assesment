@@ -20,7 +20,8 @@ def sort_list_budget(list, budget):
         if cost > budget:
             outside_budget.append(item)
         else:
-            
+           within_budget.append(item)
+        
 
 
 sort_list_budget(list, budget)
