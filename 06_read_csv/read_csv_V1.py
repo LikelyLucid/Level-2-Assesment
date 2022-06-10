@@ -10,4 +10,5 @@ def search_csv(Item):
     return None
 
 print(search_csv('Banana'))
-if search
+if search_csv('Banana') is None:
+    print('Item not found')
