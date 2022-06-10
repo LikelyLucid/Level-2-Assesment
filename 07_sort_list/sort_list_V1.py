@@ -16,3 +16,4 @@ def sort_list(list):
     new_list = calc_price(list)
     new_list.sort(key=lambda x: x[4])
     return new_list
+
