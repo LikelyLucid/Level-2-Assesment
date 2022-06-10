@@ -9,7 +9,7 @@ def append_list(Item, Unit, Weight, Price):
         "Weight": Weight,
         "Price": Price
     }
-    with open('Items.csv', 'a') as outfile:
+    with open('Items.csv', 'a', newline="") as outfile:
         writer = csv.DictWriter(outfile, fieldnames=data.keys())
         writer.writerow(data)
 
