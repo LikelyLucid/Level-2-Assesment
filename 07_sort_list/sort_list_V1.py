@@ -17,3 +17,4 @@ def sort_list(list):
     new_list.sort(key=lambda x: x[4])
     return new_list
 
+print(sort_list(list))
