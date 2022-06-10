@@ -1,3 +1,3 @@
 import json
 
-def append_list(Item, Unit, Price)
+def append_list(Item, Unit, Weight, Price)
