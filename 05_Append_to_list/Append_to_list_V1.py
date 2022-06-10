@@ -9,8 +9,8 @@ def append_list(Item, Unit, Weight, Price):
         "Price": Price
     }
     with open('Items.json', 'a') as outfile:
-        json.dump(data, outfile, indent=4)
+        json.dump(data, outfile, indent=4) # writes data to file
 
 append_list('Banana', 'g', '1', '1.50')
-file = json.load(open('Items.json'))
+file = json.load(open('Items.json')) 
 print(file)
