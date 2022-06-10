@@ -10,3 +10,5 @@ def append_list(Item, Unit, Weight, Price):
     with open('Items.csv', 'a') as outfile:
         writer = csv.writer(outfile)
         writer.writerow(data.values())
+
+append
