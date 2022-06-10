@@ -12,4 +12,4 @@ def append_list(Item, Unit, Weight, Price):
         json.dump(data, outfile, indent=4)
 
 append_list('Banana', 'g', '1', '1.50')
-files
+file = open('Items.json', 'r')
