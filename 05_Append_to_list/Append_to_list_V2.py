@@ -13,6 +13,7 @@ def append_list(Item, Unit, Weight, Price):
         writer = csv.DictWriter(outfile, fieldnames=data.keys())
         writer.writerow(data)
 
+
 append_list('Banana', 'g', '1', '1.50')
 append_list('Apple', 'g', '1', '1.50')
 append_list('Orange', 'g', '1', '1.50')
