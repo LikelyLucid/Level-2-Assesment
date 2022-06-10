@@ -9,5 +9,6 @@ def calc_price(list):
         total_price = (price/weight)
         item = item + (total_price,)
         new_list.append(item)
+    return new_list
 
 print(calc_price(list))
