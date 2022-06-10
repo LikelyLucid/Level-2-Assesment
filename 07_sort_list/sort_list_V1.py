@@ -6,7 +6,7 @@ def calc_price(list):
         price = float(item[3])
         weight = float(item[2])
         total_price = (price/weight)
-    return list
+        
 
 
 print(calc_price(list))
