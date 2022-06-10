@@ -18,6 +18,8 @@ def sort_list_budget(list, budget):
     for item in list:
         cost = float(item[3])
         if cost > budget:
+            outside_budget.append(item)
+        else:
             
 
 
