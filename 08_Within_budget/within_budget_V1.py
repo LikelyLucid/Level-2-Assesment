@@ -1,4 +1,4 @@
-
+import rich
 budget = 8
 
 list = [
