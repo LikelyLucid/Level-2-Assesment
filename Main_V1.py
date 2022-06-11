@@ -1,4 +1,6 @@
 import csv
+
+
 def check_float(question):
     while True:
         try:
@@ -41,6 +43,7 @@ def get_unit():
 
     return unit, amount
 
+
 def check_price():
     while True:
         try:
@@ -48,6 +51,7 @@ def check_price():
             return price
         except ValueError:
             print("\nInvalid price\n")
+
 
 def append_list(Item, Unit, Weight, Price):
     # append items to Items.csv
@@ -61,6 +65,7 @@ def append_list(Item, Unit, Weight, Price):
         writer = csv.DictWriter(outfile, fieldnames=data.keys())
         writer.writerow(data)  # writes data to file
 
+
 def search_csv(Item):
     # search for item in Items.csv
     with open("Items.csv", "r") as csvfile:
@@ -69,6 +74,7 @@ def search_csv(Item):
             if row[0] == Item:
                 return row
     return None
+
 
 def sort_list(list):
     new_list = []
@@ -81,15 +87,17 @@ def sort_list(list):
     new_list.sort(key=lambda x: x[4])  # sort the list by the price per weight
     return new_list
 
+
 def sort_list_budget(list, budget):
-    budget = float(budget) # convert to float
+    budget = float(budget)  # convert to float
     within_budget = []
     outside_budget = []
     for item in list:
-        if float(item[3]) > budget: # if the cost is greater than the budget
-            outside_budget.append(item) # append to the outside budget list
+        if float(item[3]) > budget:  # if the cost is greater than the budget
+            outside_budget.append(item)  # append to the outside budget list
         else:
-           within_budget.append(item) # append to the within budget list
-    return within_budget, outside_budget # return the two lists
+            within_budget.append(item)  # append to the within budget list
+    return within_budget, outside_budget  # return the two lists
+
 
 budget = check_float("Enter the budget: $")
