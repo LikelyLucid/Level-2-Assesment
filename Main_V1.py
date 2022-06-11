@@ -39,3 +39,11 @@ def get_unit():
         amount = int(amount) / 1000
 
     return unit, amount
+
+def check_price():
+    while True:
+        try:
+            price = float(input("Enter the price: $"))
+            return price
+        except ValueError:
+            print("\nInvalid price\n")
