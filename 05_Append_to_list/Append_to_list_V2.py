@@ -3,6 +3,7 @@ import csv
 
 def append_list(Item, Unit, Weight, Price):
     # append items to Items.csv
+    Item = Item.lower()
     data = {
         "Item": Item,
         "Unit": Unit,
