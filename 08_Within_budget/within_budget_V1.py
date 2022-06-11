@@ -14,7 +14,7 @@ def sort_list_budget(list, budget):
     outside_budget = []
     for item in list:
         cost = float(item[3])
-        if float() > budget:
+        if float(item[3]) > budget:
             outside_budget.append(item)
         else:
            within_budget.append(item)
