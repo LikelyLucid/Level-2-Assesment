@@ -9,10 +9,10 @@ list = [
 
 
 def sort_list_budget(list, budget):
-    budget = float(budget)
+    budget = float(budget) 
     within_budget = []
     outside_budget = []
-    for item in list: # item is a tuple
+    for item in list:
         if float(item[3]) > budget: # if the cost is greater than the budget
             outside_budget.append(item) # append to the outside budget list
         else:
