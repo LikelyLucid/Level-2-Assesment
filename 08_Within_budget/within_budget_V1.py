@@ -1,4 +1,4 @@
-from rich imo
+from rich import print
 budget = 8
 
 list = [
