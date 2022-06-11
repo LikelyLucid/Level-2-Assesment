@@ -79,3 +79,14 @@ def sort_list(list):
         new_list.append(item)  # add the tuple to the list
     new_list.sort(key=lambda x: x[4])  # sort the list by the price per weight
     return new_list
+
+def sort_list_budget(list, budget):
+    budget = float(budget) # convert to float
+    within_budget = []
+    outside_budget = []
+    for item in list:
+        if float(item[3]) > budget: # if the cost is greater than the budget
+            outside_budget.append(item) # append to the outside budget list
+        else:
+           within_budget.append(item) # append to the within budget list
+    return within_budget, outside_budget # return the two lists
