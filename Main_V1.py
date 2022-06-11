@@ -60,3 +60,12 @@ def append_list(Item, Unit, Weight, Price):
         writer = csv.DictWriter(outfile, fieldnames=data.keys())
         writer.writerow(data)  # writes data to file
 
+def search_csv(Item):
+    # search for item in Items.csv
+    with open("Items.csv", "r") as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            if row[0] == Item:
+                return row
+    return None
+
