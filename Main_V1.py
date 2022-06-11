@@ -98,4 +98,5 @@ def sort_list_budget(list, budget):
 
 budget = check_float("Enter the budget: $")
 
-
+while True:
+    
