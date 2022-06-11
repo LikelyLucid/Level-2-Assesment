@@ -47,3 +47,15 @@ def check_price():
             return price
         except ValueError:
             print("\nInvalid price\n")
+
+def append_list(Item, Unit, Weight, Price):
+    # append items to Items.csv
+    data = {
+        "Item": Item,
+        "Unit": Unit,
+        "Weight": Weight,
+        "Price": Price,
+    }  # data is a dictionary
+    with open("Items.csv", "a", newline="") as outfile:  # opens file in append mode
+        writer = csv.DictWriter(outfile, fieldnames=data.keys())
+        writer.writerow(data)  # writes data to file
