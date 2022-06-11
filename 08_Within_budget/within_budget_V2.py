@@ -9,7 +9,7 @@ list = [
 
 
 def sort_list_budget(list, budget):
-    budget = float(budget) 
+    budget = float(budget) # convert to float(value)
     within_budget = []
     outside_budget = []
     for item in list:
