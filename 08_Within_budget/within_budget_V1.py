@@ -1,4 +1,4 @@
-import rich
+from rich imo
 budget = 8
 
 list = [
