@@ -35,10 +35,8 @@ def get_unit():
             break
         else:
             print("\nInvalid amount\n")
-
     if unit in ["ml", "g"]:
         amount = int(amount) / 1000
-
     return unit, amount
 
 
