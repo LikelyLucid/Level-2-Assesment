@@ -58,4 +58,4 @@ def append_list(Item, Unit, Weight, Price):
     }  # data is a dictionary
     with open("Items.csv", "a", newline="") as outfile:  # opens file in append mode
         writer = csv.DictWriter(outfile, fieldnames=data.keys())
-        writer.writerow(data)  # writes data to file
+        writer.writerow(data)  # writes data to fi
