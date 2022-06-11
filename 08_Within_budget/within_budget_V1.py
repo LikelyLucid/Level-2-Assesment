@@ -1,5 +1,3 @@
-from traceback import print_tb
-
 
 budget = 8
 
