@@ -1,5 +1,7 @@
 import csv
 
+from numpy import append
+
 choice = ""
 item_list = []
 
@@ -128,6 +130,6 @@ while True:
     else: # if the product is not in the csv
         unit, amount = get_unit()
         price = check_price()
-        
+        append
 
 print(item_list)
