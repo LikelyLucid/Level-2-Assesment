@@ -159,6 +159,7 @@ while True:
                 console.print(table)  # print the table
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
+                print()
                 continue
 
     unit, amount = get_unit()
