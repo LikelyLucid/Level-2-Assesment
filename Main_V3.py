@@ -11,7 +11,7 @@ console = Console()
 
 def pg_break():
     print("\n")
-    print("-" * )
+    print("=" * )
     print("\n")
 
 def check_float(question):
