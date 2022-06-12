@@ -1,7 +1,7 @@
 import csv
 import rich
 from rich.console import Console
-from rich.prompt import RichPrompt
+from rich.prompt import Prompt
 choice = ""
 item_list = []
 
