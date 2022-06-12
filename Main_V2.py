@@ -126,7 +126,7 @@ while True:
                 item_list.append(csv_list[0])
             else:
                 loop = 0 # loop counter
-                table = Table(title="Autocomplete options") 
+                table = Table(title="Autocomplete options") # create a table object 
                 table.add_column("Option", style="cyan")
                 table.add_column("Name")
                 table.add_column("weight")
