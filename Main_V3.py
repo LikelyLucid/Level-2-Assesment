@@ -112,10 +112,10 @@ def sort_list_budget(list, budget):
 budget = check_float("Enter the budget: $ ")
 
 while True:
-    product_name = Check_Blank("Enter the product name: ").lower() 
+    product_name = Check_Blank("Enter the product name: ").lower() # get the product name
 
     if product_name == "x":
-        break
+        break 
 
     if search_csv(product_name) is not None:
         csv_list = search_csv(product_name)
