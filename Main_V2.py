@@ -128,7 +128,7 @@ while True:
                 loop = 0
                 table = Table(title="Autocomplete options")
                 table.add_column("Released", justify="right", style="cyan", no_wrap=True)
-        table.add_column("Title", style="magenta")
+                 table.add_column("Title", style="magenta")
         table.add_column("Box Office", justify="right", style="green")
 
                 for item in csv_list:
