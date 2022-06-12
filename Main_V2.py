@@ -4,7 +4,7 @@ from rich.console import Console
 choice = ""
 item_list = []
 
-
+console = Console()
 def check_float(question):
     while True:
         try:
