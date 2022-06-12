@@ -130,7 +130,7 @@ while True:
                 table.add_column("Option")
                 table.add_column("Name")
                 table.add_column("Price")
-                table.add_column("Price")
+                table.add_column("weight")
 
                 for item in csv_list:
                     print(loop, item)
