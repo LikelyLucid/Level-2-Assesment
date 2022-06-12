@@ -119,7 +119,7 @@ while True:
 
     if search_csv(product_name) is not None: # if the product name is found in the csv
         csv_list = search_csv(product_name) # get the list of the product name
-        console.print("\nProduct has been entered before\n", style="bold green") 
+        console.print("\nProduct has been entered before\n", style="bold green") # print that the product has been entered before
         choice = ""
 
         while choice != "y" and choice != "n":
