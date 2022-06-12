@@ -134,4 +134,4 @@ while True:
         append_list(product_name, unit, amount, price)
         item_list.append([product_name, unit, amount, price])
 
-sort_list_budget(item_list, budget)
+sort_list()
