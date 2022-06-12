@@ -87,7 +87,7 @@ def sort_list(list):
     for item in list:
         price = float(item[3])  # convert the price to a float
         weight = float(item[2])  # convert the weight to a float
-        total_price = price / weight  # calculate the price per weight
+        total_price = weight / cost  # calculate the price per weight
         item = tuple(item) + (total_price,)  # add the price per weight to the tuple
         new_list.append(item)  # add the tuple to the list
     new_list.sort(key=lambda x: x[4])  # sort the list by the price per weight
