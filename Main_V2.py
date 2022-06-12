@@ -172,5 +172,5 @@ table.add_column("Weight")
 table.add_column("Price")
 table.add_column("Price per Kg")
 for item in outside:
-    table.add_row(item[0], item[2], item[3], item[4])
+    table.add_row(str(item[0]), str(item[2]), str(item[3]), str(item[4]))
 console.print(table)
