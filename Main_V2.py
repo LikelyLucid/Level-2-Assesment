@@ -146,7 +146,6 @@ while True:
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
                 continue
-    else:  # if the product is not in the csv
         unit, amount = get_unit()
         price = check_price()
         append_list(product_name, unit, amount, price)
