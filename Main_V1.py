@@ -130,6 +130,6 @@ while True:
     else: # if the product is not in the csv
         unit, amount = get_unit()
         price = check_price()
-        append
+        append_list(product_name, unit, amount, price)
 
 print(item_list)
