@@ -188,7 +188,7 @@ within, outside = sort_list_budget(item_list, budget)
 
 # print each list as a table
 
-final
+final_table("Within budget", within)
 
 
 final_table("Outside Budget", outside)
