@@ -171,6 +171,7 @@ while True:
     price = check_price()
     append_list(product_name, unit, amount, price)
     item_list.append([product_name, unit, amount, price])
+    pg_break()
 
 
 item_list = sort_list(item_list)
