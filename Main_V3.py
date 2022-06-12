@@ -188,4 +188,5 @@ within, outside = sort_list_budget(item_list, budget)
 pg_break()
 # print each list as a table
 final_table("Within budget", within)
+print()
 final_table("Outside Budget", outside)
