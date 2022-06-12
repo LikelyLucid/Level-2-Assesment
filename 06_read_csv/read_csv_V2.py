@@ -10,7 +10,7 @@ def search_csv(Item):
             if row[0] == Item:
                 item_rows.append(row) # append the row to the list
     if len(item_rows) == 0:
-        return None
+        return None 
     else:
         return item_rows
 
