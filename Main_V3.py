@@ -113,7 +113,7 @@ budget = check_float("Enter the budget: $ ")
 
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
-    
+
     if product_name == "x":
         break
 
@@ -121,8 +121,10 @@ while True:
         csv_list = search_csv(product_name)
         console.print("\nProduct has been entered before\n", style="bold green")
         choice = ""
+
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
+            
         if choice == "y":
             if len(csv_list) == 1:
                 item_list.append(csv_list[0])
