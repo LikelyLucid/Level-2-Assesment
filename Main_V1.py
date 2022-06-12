@@ -112,6 +112,7 @@ while True:
     if search_csv(product_name) is not None:
         csv_list = search_csv(product_name)
         print("\nProduct has been entered before\n")
+        choice = ""
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
         if choice == "y":
@@ -124,5 +125,5 @@ while True:
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
-        choice = ""
+
 print(item_list)
