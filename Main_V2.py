@@ -1,6 +1,6 @@
 import csv
 import rich
-
+from rich,
 choice = ""
 item_list = []
 
