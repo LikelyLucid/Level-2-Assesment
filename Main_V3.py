@@ -9,10 +9,12 @@ item_list = []
 
 console = Console()
 
+
 def pg_break():
     print("\n")
     print("=" * 40)
     print("\n")
+
 
 def check_float(question):
     while True:
@@ -78,13 +80,13 @@ def search_csv(Item):
     # search for item in Items.csv
     with open("Items.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
-        for row in reader: # for each row in the csv file
+        for row in reader:  # for each row in the csv file
             if row[0] == Item:
-                item_rows.append(row) # append the row to the list
+                item_rows.append(row)  # append the row to the list
     if len(item_rows) == 0:
         return None
     else:
-        return item_rows # return the list
+        return item_rows  # return the list
 
 
 def sort_list(list):
@@ -110,18 +112,24 @@ def sort_list_budget(list, budget):
             within_budget.append(item)  # append to the within budget list
     return within_budget, outside_budget  # return the two lists
 
-def final_table(Title, list): # create a table with the list
-    table = Table(title=Title) # create a table
+
+def final_table(Title, list):  # create a table with the list
+    table = Table(title=Title)  # create a table
     table.add_column("Name")
     table.add_column("Weight")
     table.add_column("Price")
     table.add_column("Price per Kg")
     for item in list:
-        table.add_row(str(item[0]), str(item[2]), str(item[3]), str(round(item[4], 2))) # Name, Weight, Price, Price per Kg
-    console.print(table) # print the table
+        table.add_row(
+            str(item[0]), str(item[2]), str(item[3]), str(round(item[4], 2))
+        )  # Name, Weight, Price, Price per Kg
+    console.print(table)  # print the table
+
 
 budget = check_float("Enter the budget: $ ")
-console.print("\nEnter 'x' to exit when entering product name\n", style="underline bold red")
+console.print(
+    "\nEnter 'x' to exit when entering product name\n", style="underline bold red"
+)
 while True:
     product_name = Check_Blank(
         "Enter the product name: "
