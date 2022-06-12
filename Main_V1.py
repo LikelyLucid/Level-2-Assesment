@@ -135,7 +135,6 @@ while True:
         item_list.append([product_name, unit, amount, price])
 
 item_list = sort_list(item_list)
-print(item_list)
 within, outside = sort_list_budget(item_list, budget)
 print("Items in your budget: ")
 print(within)
