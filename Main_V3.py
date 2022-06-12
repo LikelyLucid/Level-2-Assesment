@@ -115,9 +115,9 @@ while True:
     product_name = Check_Blank("Enter the product name: ").lower() # get the product name
 
     if product_name == "x":
-        break 
+        break # if the user enters x then break the loop
 
-    if search_csv(product_name) is not None:
+    if search_csv(product_name) is not None: # if the product name is found in the csv
         csv_list = search_csv(product_name)
         console.print("\nProduct has been entered before\n", style="bold green")
         choice = ""
