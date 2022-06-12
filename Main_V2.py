@@ -127,7 +127,7 @@ while True:
             else:
                 loop = 0
                 table = Table(title="Autocomplete options")
-                table.add_column("Option")
+                table.add_column("Option", style)
                 table.add_column("Name")
                 table.add_column("weight")
                 table.add_column("Price")
