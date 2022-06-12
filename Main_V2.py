@@ -1,6 +1,6 @@
 import csv
 import rich
-from rich,
+from rich.console 
 choice = ""
 item_list = []
 
