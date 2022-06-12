@@ -124,6 +124,7 @@ while True:
         if choice == "y":
             if len(csv_list) == 1:
                 item_list.append(csv_list[0])
+                continue
             else:
                 loop = 0  # loop counter
                 table = Table(
