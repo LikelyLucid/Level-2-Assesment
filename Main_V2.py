@@ -13,6 +13,7 @@ def check_float(question):
             return float(float_num)  # convert to float and return it
         except ValueError:  # if not a float then ask again
             console.print("Please enter a valid number", style="underline bold red")
+t
 
 
 def Check_Blank(question):
