@@ -113,7 +113,7 @@ def sort_list_budget(list, budget):
     return within_budget, outside_budget  # return the two lists
 
 def final_table(Title, list)
-    table = Table(title="Outside Budget")
+    table = Table(title=Title)
     table.add_column("Name")
     table.add_column("Weight")
     table.add_column("Price")
