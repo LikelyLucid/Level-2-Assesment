@@ -9,6 +9,7 @@ item_list = []
 
 console = Console()
 
+def break
 
 def check_float(question):
     while True:
