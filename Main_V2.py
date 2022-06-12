@@ -156,6 +156,5 @@ within, outside = sort_list_budget(item_list, budget)
 
 # print each list as a table
 
-table = Table(
-                    title="Autocomplete options"
+table = Table(title="Autocomplete options"
                 )
