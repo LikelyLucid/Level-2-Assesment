@@ -127,12 +127,16 @@ while True:
             else:
                 loop = 0
                 table = Table(title="Autocomplete options")
+                table.add_column("Released", justify="right", style="cyan", no_wrap=True)
+table.add_column("Title", style="magenta")
+table.add_column("Box Office", justify="right", style="green")
+
                 for item in csv_list:
                     print(loop, item)
                     name = item[0]
                     weight = str(item[2]) + " " + item[1]
                     price = "$" + str(item[3])
-                    
+
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
