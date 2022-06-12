@@ -107,7 +107,7 @@ budget = check_float("Enter the budget: $")
 
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
-    if product_name = 
+    if product_name = "x"
     if search_csv(product_name) is not None:
         csv_list = search_csv(product_name)
         print("\nProduct has been entered before\n")
