@@ -108,7 +108,7 @@ def sort_list_budget(list, budget):
     return within_budget, outside_budget  # return the two lists
 
 
-budget = check_float("Enter the budget: [frame]$")
+budget = check_float("Enter the budget: [u]$")
 
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
