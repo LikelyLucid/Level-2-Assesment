@@ -138,6 +138,7 @@ while True:
         if choice == "y":  # if the choice is y
             if len(csv_list) == 1:  # if the list has only one item
                 item_list.append(csv_list[0])  # append the item to the item list
+                
                 continue
 
             else:  # if the list has more than one item
