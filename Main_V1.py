@@ -128,5 +128,6 @@ while True:
     else: # if the product is not in the csv
         unit, amount = get_unit()
         price = check_price()
+        
 
 print(item_list)
