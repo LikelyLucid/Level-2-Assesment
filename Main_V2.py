@@ -138,8 +138,8 @@ while True:
                     price = "$" + str(item[3]) # get the price
                     table.add_row(str(loop), name, weight, price) # add rows to the table
                     loop += 1 # increment the loop counter
-                console.print(table)
-                choice = int(input("\nEnter the number of the item: "))
+                console.print(table) # print the table
+                choice = int(input("\nEnter the number of the item: ")) 
                 item_list.append(csv_list[int(choice)])
     else:  # if the product is not in the csv
         unit, amount = get_unit()
