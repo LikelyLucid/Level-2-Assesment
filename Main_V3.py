@@ -112,8 +112,8 @@ def sort_list_budget(list, budget):
             within_budget.append(item)  # append to the within budget list
     return within_budget, outside_budget  # return the two lists
 
-def final_table(Title, list): 
-    table = Table(title=Title)
+def final_table(Title, list): # create a table with the list
+    table = Table(title=Title) # create a table
     table.add_column("Name")
     table.add_column("Weight")
     table.add_column("Price")
