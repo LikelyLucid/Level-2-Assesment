@@ -8,7 +8,7 @@ choice = ""
 item_list = []
 
 console = Console()
-print(":warning:")
+
 
 def check_float(question):
     while True:
