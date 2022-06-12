@@ -188,4 +188,4 @@ pg_break()
 final_table("Within budget", within)
 print()
 if len(outside) > 0:
-final_table("Outside Budget", outside)
+    final_table("Outside Budget", outside)
