@@ -112,7 +112,7 @@ def sort_list_budget(list, budget):
 budget = check_float("Enter the budget: $ ")
 
 while True:
-    product_name = Check_Blank("Enter the product name: ").lower()
+    product_name = Check_Blank("Enter the product name: ").lower() 
 
     if product_name == "x":
         break
