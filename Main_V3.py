@@ -149,10 +149,12 @@ while True:
                         str(loop), name, weight, price
                     )  # add rows to the table
                     loop += 1  # increment the loop counter
+
                 console.print(table)  # print the table
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
                 continue
+            
     unit, amount = get_unit()
     price = check_price()
     append_list(product_name, unit, amount, price)
