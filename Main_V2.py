@@ -1,7 +1,6 @@
 import csv
 import rich
 from rich.console import Console
-from rich.prompt import Prompt
 choice = ""
 item_list = []
 
@@ -9,7 +8,7 @@ console = Console()
 def check_float(question):
     while True:
         try:
-            float_num = Prompt.ask(question)  # ask question
+            float_num = console.input(question)  # ask question
             return float(float_num)  # convert to float and return it
         except ValueError:  # if not a float then ask again
             console.print("Please enter a valid number", style="bold red")
