@@ -128,8 +128,8 @@ while True:
                 loop = 0
                 table = Table(title="Autocomplete options")
                 table.add_column("Option")
-                table.add_column("Title")
-                table.add_column("Box Office")
+                table.add_column("Name")
+                table.add_column("Price")
 
                 for item in csv_list:
                     print(loop, item)
