@@ -116,7 +116,9 @@ while True:
             if len(csv_list) == 1:
                 item_list.append(csv_list)
             else:
-                for loop, item in enumerate(csv_list):
+                loop = 0
+                for item in csv_list:
                     print(loop, item)
+                    loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
