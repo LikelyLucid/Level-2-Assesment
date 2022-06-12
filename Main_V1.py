@@ -104,5 +104,4 @@ budget = check_float("Enter the budget: $")
 
 while True:
     product_name = Check_Blank("Enter the product name: ")
-    if product_name in search_csv(product_name):
-        print("Yes")
+    print(search)
