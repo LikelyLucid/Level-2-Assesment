@@ -109,5 +109,5 @@ while True:
         print("\nProduct has been entered before\n")
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
-        if choice = "y":
+        if choice == "y":
             if csv_list
