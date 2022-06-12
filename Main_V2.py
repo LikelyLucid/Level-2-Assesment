@@ -2,10 +2,13 @@ import csv
 import rich
 from rich.console import Console
 from rich import print
+
 choice = ""
 item_list = []
 
 console = Console()
+
+
 def check_float(question):
     while True:
         try:
@@ -127,7 +130,7 @@ while True:
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
-    else: # if the product is not in the csv
+    else:  # if the product is not in the csv
         unit, amount = get_unit()
         price = check_price()
         append_list(product_name, unit, amount, price)
