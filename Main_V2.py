@@ -9,7 +9,7 @@ console = Console()
 def check_float(question):
     while True:
         try:
-            float_num = Prompt.ask(question)  # ask question
+            float_num = Prompt.ask(question, style="bold red")  # ask question
             return float(float_num)  # convert to float and return it
         except ValueError:  # if not a float then ask again
             console.print("Please enter a valid number", style="bold red")
