@@ -136,7 +136,7 @@ while True:
                     name = item[0]
                     weight = str(item[2]) + " " + item[1]
                     price = "$" + str(item[3])
-                    table.add_row()
+                    table.add_row(loop, name, weight, price)
 
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
