@@ -171,3 +171,5 @@ table.add_column("Name")
 table.add_column("Weight")
 table.add_column("Price")
 table.add_column("Price per Kg")
+for item in outside:
+    
