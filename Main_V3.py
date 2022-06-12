@@ -123,9 +123,9 @@ while True:
         choice = "" # reset the choice
 
         while choice != "y" and choice != "n": # while the choice is not y or n
-            choice = input("Would you like to autocomplete? (y/n): ").lower()
+            choice = input("Would you like to autocomplete? (y/n): ").lower() # get the choice
 
-        if choice == "y":
+        if choice == "y": 
             if len(csv_list) == 1:
                 item_list.append(csv_list[0])
                 continue
