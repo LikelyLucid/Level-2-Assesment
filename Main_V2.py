@@ -159,4 +159,5 @@ within, outside = sort_list_budget(item_list, budget)
 table = Table(title="Within Budget")
 table.add_column("Name")
 table.add_column("Weight")
+table
 for item in within:
