@@ -160,5 +160,5 @@ table = Table(title="Within Budget")
 table.add_column("Name")
 table.add_column("Weight")
 table.add_column("Price")
-table.add_column("Price per Weight")
+table.add_column("Price per Kg")
 for item in within:
