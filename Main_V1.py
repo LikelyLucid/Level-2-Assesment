@@ -14,8 +14,8 @@ def Check_Blank(question):
     while True:
         text = input(question)  # ask question
         return text
-        # else:  # if text is empty then ask again
-        #     print("Please enter a valid name.")
+        else:      # if text is empty then ask again
+            print("Please enter a valid name.")
 
 
 def get_unit():
