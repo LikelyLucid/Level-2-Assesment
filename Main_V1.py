@@ -137,3 +137,4 @@ while True:
 item_list = sort_list(item_list)
 print(item_list)
 within, outside = sort_list_budget(item_list, budget)
+print(within)
