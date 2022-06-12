@@ -3,6 +3,7 @@ import csv
 choice = ""
 item_list = []
 
+
 def check_float(question):
     while True:
         try:
