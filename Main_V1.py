@@ -125,6 +125,7 @@ while True:
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
-    else: 
+    else: # if the product is not in the csv
+        
 
 print(item_list)
