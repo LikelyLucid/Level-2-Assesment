@@ -187,5 +187,5 @@ pg_break()
 # print each list as a table
 final_table("Within budget", within)
 print()
-if 
+if len(outside) > 0:
 final_table("Outside Budget", outside)
