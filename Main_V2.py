@@ -126,7 +126,7 @@ while True:
                 item_list.append(csv_list[0])
             else:
                 loop = 0
-                table = Table(title="Star Wars Movies")
+                table = Table(title="Autocomplete options")
                 for item in csv_list:
                     print(loop, item)
                     loop += 1
