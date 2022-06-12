@@ -129,6 +129,7 @@ while True:
                 table = Table(title="Autocomplete options")
                 for item in csv_list:
                     print(loop, item)
+                    
                     name = item[0]
                     weight = str(item[2]) + " " + item[1]
                     price = "$" + str(item[3])
