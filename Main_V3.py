@@ -130,7 +130,7 @@ while True:
                 item_list.append(csv_list[0]) # append the item to the item list
                 continue
 
-            else:
+            else: # if the list has more than one item
                 loop = 0  # loop counter
                 table = Table(
                     title="Autocomplete options"
