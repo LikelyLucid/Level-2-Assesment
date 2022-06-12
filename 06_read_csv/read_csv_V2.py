@@ -14,4 +14,4 @@ def search_csv(Item):
     else: # if rows are found, return the list
         return item_rows
 
-print(search_csv("banana"))
+print(search_csv(input("Enter the item: ")))
