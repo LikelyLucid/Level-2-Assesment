@@ -115,4 +115,7 @@ while True:
             if len(csv_list) == 1:
                 item_list.append(csv_list)
             else:
+                for item in csv_list:
+                    print(item)
+                choice = Check_Blank("\nEnter the item number: ")
                 
