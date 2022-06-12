@@ -56,7 +56,8 @@ def get_unit():
 def check_price():
     while True:
         try:
-            return float(input("Enter the price: $"))
+            price = float(input("Enter the price: $"))
+            return price
         except ValueError:
             console.print("\nInvalid price\n", style="underline bold red")
 
@@ -79,7 +80,9 @@ def search_csv(Item):
     # search for item in Items.csv
     with open("Items.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
-        item_rows.extend(row for row in reader if row[0] == Item)
+        for row in reader:
+            if row[0] == Item:
+                item_rows.append(row)
     if len(item_rows) == 0:
         return None
     else:
