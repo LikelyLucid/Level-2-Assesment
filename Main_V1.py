@@ -105,4 +105,5 @@ budget = check_float("Enter the budget: $")
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
     if search_csv(product_name) is not None:
-        print("\nProduct already exists\nWould you like to autocomplete?")
+        print("\nProduct already exists\n")
+        
