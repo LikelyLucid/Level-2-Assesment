@@ -118,8 +118,8 @@ while True:
         break # if the user enters x then break the loop
 
     if search_csv(product_name) is not None: # if the product name is found in the csv
-        csv_list = search_csv(product_name) 
-        console.print("\nProduct has been entered before\n", style="bold green")
+        csv_list = search_csv(product_name) # get the list of the product name
+        console.print("\nProduct has been entered before\n", style="bold green") 
         choice = ""
 
         while choice != "y" and choice != "n":
