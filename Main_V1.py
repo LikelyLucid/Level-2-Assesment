@@ -105,8 +105,9 @@ budget = check_float("Enter the budget: $")
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
     if search_csv(product_name) is not None:
+        
         print("\nProduct has been entered before\n")
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
         if choice = "y":
-            if 
+            if
