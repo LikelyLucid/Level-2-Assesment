@@ -176,6 +176,7 @@ for item in within:
     table.add_row(str(item[0]), str(item[2]), str(item[3]), str(item[4]))
 console.print(table)
 
+
 table = Table(title="Outside Budget")
 table.add_column("Name")
 table.add_column("Weight")
