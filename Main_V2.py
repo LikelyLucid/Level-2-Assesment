@@ -163,7 +163,7 @@ table.add_column("Price")
 table.add_column("Price per Kg")
 
 for item in within:
-    table.add_row(item[0], item[2], item[3], stritem[4])
+    table.add_row(str())
 console.print(table)
 
 table = Table(title="Outside Budget")
