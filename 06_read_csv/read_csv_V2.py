@@ -9,4 +9,4 @@ def search_csv(Item):
         for row in reader:
             if row[0] == Item:
                 item_rows.append(row)
-    
+    return item_rows
