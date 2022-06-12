@@ -56,8 +56,7 @@ def get_unit():
 def check_price():
     while True:
         try:
-            price = float(input("Enter the price: $"))
-            return price
+            return float(input("Enter the price: $"))
         except ValueError:
             console.print("\nInvalid price\n", style="underline bold red")
 
