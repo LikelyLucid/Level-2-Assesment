@@ -151,7 +151,7 @@ while True:
             else:  # if the list has more than one item
                 loop = 0  # loop counter
                 table = Table(
-                    title="Autocomplete options", subtitle="Select an option"
+                    title="Autocomplete options", subtitle="Best option at top"
                 )  # create a table with the autocomplete options
                 table.add_column("Option", style="cyan")
                 table.add_column("Name")
