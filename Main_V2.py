@@ -117,7 +117,7 @@ while True:
         break
     if search_csv(product_name) is not None:
         csv_list = search_csv(product_name)
-        console.print("\nProduct has been entered before\n", style)
+        console.print("\nProduct has been entered before\n", style="")
         choice = ""
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
