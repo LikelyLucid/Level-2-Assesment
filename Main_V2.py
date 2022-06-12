@@ -2,6 +2,8 @@ import csv
 import rich
 from rich.console import Console
 from rich import print
+from rich.panel import Panel
+print(Panel("Hello, [red]World!"))
 
 choice = ""
 item_list = []
