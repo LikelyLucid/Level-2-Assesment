@@ -112,12 +112,12 @@ def sort_list_budget(list, budget):
             within_budget.append(item)  # append to the within budget list
     return within_budget, outside_budget  # return the two lists
 
-def final_table(Title, list):
+def final_table(Title, list): 
     table = Table(title=Title)
     table.add_column("Name")
     table.add_column("Weight")
     table.add_column("Price")
-    table.add_column("Price per Kg") 
+    table.add_column("Price per Kg")
     for item in list:
         table.add_row(str(item[0]), str(item[2]), str(item[3]), str(round(item[4], 2))) # Name Weight Price Price per Kg
     console.print(table)
