@@ -110,4 +110,4 @@ while True:
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
         if choice == "y":
-            if csv_list
+            if len(csv_list) == 1:
