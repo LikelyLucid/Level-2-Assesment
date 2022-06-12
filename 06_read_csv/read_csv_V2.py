@@ -11,4 +11,4 @@ def search_csv(Item):
                 item_rows.append(row)
     return item_rows
 
-print(search_csv("Banana"))
+print(search_csv("banana"))
