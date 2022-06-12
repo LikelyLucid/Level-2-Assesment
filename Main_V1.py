@@ -139,5 +139,5 @@ print(item_list)
 within, outside = sort_list_budget(item_list, budget)
 print("Items in your budget: ")
 print(within)
-print
+print("items outside your budget: ")
 print(outside)
