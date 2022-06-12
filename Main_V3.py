@@ -112,25 +112,31 @@ def sort_list_budget(list, budget):
 budget = check_float("Enter the budget: $ ")
 
 while True:
-    product_name = Check_Blank("Enter the product name: ").lower() # get the product name
+    product_name = Check_Blank(
+        "Enter the product name: "
+    ).lower()  # get the product name
 
     if product_name == "x":
-        break # if the user enters x then break the loop
+        break  # if the user enters x then break the loop
 
-    if search_csv(product_name) is not None: # if the product name is found in the csv
-        csv_list = search_csv(product_name) # get the list of the product name
-        console.print("\nProduct has been entered before\n", style="bold green") # print that the product has been entered before
-        choice = "" # reset the choice
+    if search_csv(product_name) is not None:  # if the product name is found in the csv
+        csv_list = search_csv(product_name)  # get the list of the product name
+        console.print(
+            "\nProduct has been entered before\n", style="bold green"
+        )  # print that the product has been entered before
+        choice = ""  # reset the choice
 
-        while choice != "y" and choice != "n": # while the choice is not y or n
-            choice = input("Would you like to autocomplete? (y/n): ").lower() # get the choice
+        while choice != "y" and choice != "n":  # while the choice is not y or n
+            choice = input(
+                "Would you like to autocomplete? (y/n): "
+            ).lower()  # get the choice
 
-        if choice == "y": # if the choice is y
-            if len(csv_list) == 1: # if the list has only one item
-                item_list.append(csv_list[0]) # append the item to the item list
+        if choice == "y":  # if the choice is y
+            if len(csv_list) == 1:  # if the list has only one item
+                item_list.append(csv_list[0])  # append the item to the item list
                 continue
 
-            else: # if the list has more than one item
+            else:  # if the list has more than one item
                 loop = 0  # loop counter
                 table = Table(
                     title="Autocomplete options"
