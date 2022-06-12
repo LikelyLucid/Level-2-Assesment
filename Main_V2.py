@@ -125,20 +125,24 @@ while True:
             if len(csv_list) == 1:
                 item_list.append(csv_list[0])
             else:
-                loop = 0 # loop counter
-                table = Table(title="Autocomplete options") # create a table with the autocomplete options
+                loop = 0  # loop counter
+                table = Table(
+                    title="Autocomplete options"
+                )  # create a table with the autocomplete options
                 table.add_column("Option", style="cyan")
                 table.add_column("Name")
                 table.add_column("weight")
-                table.add_column("Price") # add columns to the table
-                for item in csv_list: # for each item in the list
+                table.add_column("Price")  # add columns to the table
+                for item in csv_list:  # for each item in the list
                     # print(loop, item)
-                    name = item[0] # get the name
-                    weight = str(item[2]) + " " + item[1] # get the weight
-                    price = "$" + str(item[3]) # get the price
-                    table.add_row(str(loop), name, weight, price) # add rows to the table
-                    loop += 1 # increment the loop counter
-                console.print(table) # print the table
+                    name = item[0]  # get the name
+                    weight = str(item[2]) + " " + item[1]  # get the weight
+                    price = "$" + str(item[3])  # get the price
+                    table.add_row(
+                        str(loop), name, weight, price
+                    )  # add rows to the table
+                    loop += 1  # increment the loop counter
+                console.print(table)  # print the table
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
     else:  # if the product is not in the csv
