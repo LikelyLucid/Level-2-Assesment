@@ -119,7 +119,7 @@ def final_table(Title, list): # create a table with the list
     table.add_column("Price")
     table.add_column("Price per Kg")
     for item in list:
-        table.add_row(str(item[0]), str(item[2]), str(item[3]), str(round(item[4], 2))) # Name Weight Price Price per Kg
+        table.add_row(str(item[0]), str(item[2]), str(item[3]), str(round(item[4], 2))) # Name, Weight Price Price per Kg
     console.print(table) # print the table
 
 budget = check_float("Enter the budget: $ ")
