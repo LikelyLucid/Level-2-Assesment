@@ -139,7 +139,7 @@ while True:
                     table.add_row(str(loop), name, weight, price) # add rows to the table
                     loop += 1 # increment the loop counter
                 console.print(table) # print the table
-                choice = int(input("\nEnter the number of the item: ")) 
+                choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
     else:  # if the product is not in the csv
         unit, amount = get_unit()
