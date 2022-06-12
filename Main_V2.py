@@ -132,7 +132,7 @@ while True:
                 table.add_column("weight")
                 table.add_column("Price")
                 for item in csv_list:
-                    print(loop, item)
+                    # print(loop, item)
                     name = item[0]
                     weight = str(item[2]) + " " + item[1]
                     price = "$" + str(item[3])
