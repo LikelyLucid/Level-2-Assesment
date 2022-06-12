@@ -145,6 +145,7 @@ while True:
                 console.print(table)  # print the table
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
+                continue
     else:  # if the product is not in the csv
         unit, amount = get_unit()
         price = check_price()
