@@ -9,7 +9,10 @@ item_list = []
 
 console = Console()
 
-def pg_break()
+def pg_break():
+    print("\n")
+    print("-" * 50)
+    print("\n")
 
 def check_float(question):
     while True:
