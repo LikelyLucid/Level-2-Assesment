@@ -9,6 +9,7 @@ item_list = []
 
 console = Console()
 
+
 def check_float(question):
     while True:
         try:
@@ -16,6 +17,7 @@ def check_float(question):
             return float(float_num)  # convert to float and return it
         except ValueError:  # if not a float then ask again
             console.print("Please enter a valid number", style="underline bold red")
+
 
 def Check_Blank(question):
     while True:
@@ -26,6 +28,7 @@ def Check_Blank(question):
             return text
         else:  # if text is empty then ask again
             console.print("Please enter a valid name.", style="underline bold red")
+
 
 def get_unit():
     while True:
@@ -45,6 +48,7 @@ def get_unit():
         amount = int(amount) / 1000
     return unit, amount
 
+
 def check_price():
     while True:
         try:
@@ -52,6 +56,7 @@ def check_price():
             return price
         except ValueError:
             console.print("\nInvalid price\n", style="underline bold red")
+
 
 def append_list(Item, Unit, Weight, Price):
     # append items to Items.csv
@@ -64,6 +69,7 @@ def append_list(Item, Unit, Weight, Price):
     with open("Items.csv", "a", newline="") as outfile:  # opens file in append mode
         writer = csv.DictWriter(outfile, fieldnames=data.keys())
         writer.writerow(data)  # writes data to file
+
 
 def search_csv(Item):
     item_rows = []
@@ -78,6 +84,7 @@ def search_csv(Item):
     else:
         return item_rows
 
+
 def sort_list(list):
     new_list = []
     for item in list:
@@ -89,6 +96,7 @@ def sort_list(list):
     new_list.sort(key=lambda x: x[4])  # sort the list by the price per weight
     return new_list
 
+
 def sort_list_budget(list, budget):
     budget = float(budget)  # convert to float
     within_budget = []
@@ -99,6 +107,7 @@ def sort_list_budget(list, budget):
         else:
             within_budget.append(item)  # append to the within budget list
     return within_budget, outside_budget  # return the two lists
+
 
 budget = check_float("Enter the budget: $ ")
 
@@ -116,20 +125,20 @@ while True:
             if len(csv_list) == 1:
                 item_list.append(csv_list[0])
             else:
-                loop = 0 # loop counter
-                table = Table(title="Autocomplete options") # create a table with the autocomplete options
+                loop = 0  # initialize loop counter
+                table = Table(title="Autocomplete options")  # create a table with the autocomplete options
                 table.add_column("Option", style="cyan")
                 table.add_column("Name")
                 table.add_column("weight")
-                table.add_column("Price") # add columns to the table
-                for item in csv_list: # for each item in the list
+                table.add_column("Price")  # add columns to the table
+                for item in csv_list:  # for each item in the list
                     # print(loop, item)
-                    name = item[0] # get the name
-                    weight = str(item[2]) + " " + item[1] # get the weight
-                    price = "$" + str(item[3]) # get the price
-                    table.add_row(str(loop), name, weight, price) # add rows to the table
-                    loop += 1 # increment the loop counter
-                console.print(table) # print the table
+                    name = item[0]  # get the name
+                    weight = str(item[2]) + " " + item[1]  # get the weight
+                    price = "$" + str(item[3])  # get the price
+                    table.add_row(str(loop), name, weight, price)  # add rows to the table
+                    loop += 1  # increment the loop counter
+                console.print(table)  # print the table
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
     else:  # if the product is not in the csv
