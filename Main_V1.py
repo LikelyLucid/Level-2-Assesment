@@ -1,7 +1,4 @@
 import csv
-from cv2 import sort
-
-from numpy import append
 
 choice = ""
 item_list = []
