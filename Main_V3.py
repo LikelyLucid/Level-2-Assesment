@@ -129,7 +129,7 @@ while True:
             if len(csv_list) == 1:
                 item_list.append(csv_list[0])
                 continue
-            
+
             else:
                 loop = 0  # loop counter
                 table = Table(
@@ -139,6 +139,7 @@ while True:
                 table.add_column("Name")
                 table.add_column("weight")
                 table.add_column("Price")  # add columns to the table
+
                 for item in csv_list:  # for each item in the list
                     # print(loop, item)
                     name = item[0]  # get the name
