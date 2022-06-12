@@ -108,3 +108,4 @@ while True:
         print("\nProduct already exists\n")
         while choice != "y" and choice != "n":
             choice = input("Would you like to autocomplete? (y/n): ").lower()
+        if choice = 
