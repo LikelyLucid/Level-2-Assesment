@@ -26,8 +26,7 @@ def check_float(question):
 def Check_Blank(question):
     while True:
         text = input(question)  # ask question
-        if
-            text != "":  # if text isn't empty then return it
+        if text != "":  # if text isn't empty then return it
             return text
         else:  # if text is empty then ask again
             console.print("Please enter a valid name.", style="underline bold red")
