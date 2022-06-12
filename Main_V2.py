@@ -162,4 +162,4 @@ table.add_column("Weight")
 table.add_column("Price")
 table.add_column("Price per Kg")
 for item in within:
-    table
+    table.add_row()
