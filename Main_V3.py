@@ -154,11 +154,12 @@ while True:
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
                 continue
-            
+
     unit, amount = get_unit()
     price = check_price()
     append_list(product_name, unit, amount, price)
     item_list.append([product_name, unit, amount, price])
+
 
 item_list = sort_list(item_list)
 within, outside = sort_list_budget(item_list, budget)
