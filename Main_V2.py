@@ -135,9 +135,9 @@ while True:
                     # print(loop, item)
                     name = item[0] # get the name
                     weight = str(item[2]) + " " + item[1] # get the weight
-                    price = "$" + str(item[3]) 
+                    price = "$" + str(item[3]) # get the price
                     table.add_row(str(loop), name, weight, price) # add rows to the table
-                    loop += 1
+                    loop += 1 # increment the loop counter
                 console.print(table)
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
