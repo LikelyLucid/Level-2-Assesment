@@ -6,9 +6,9 @@ def search_csv(Item):
     # search for item in Items.csv
     with open("Items.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
-        for row in reader: 
+        for row in reader: # for each row in the csv file
             if row[0] == Item:
-                item_rows.append(row)
+                item_rows.append(row) # append the row to the list
     if len(item_rows) == 0:
         return None
     else:
