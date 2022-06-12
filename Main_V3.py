@@ -118,7 +118,7 @@ def final_table(Title, list)
     table.add_column("Weight")
     table.add_column("Price")
     table.add_column("Price per Kg")
-    for item in lsit:
+    for item in list:
         table.add_row(str(item[0]), str(item[2]), str(item[3]), str(item[4]))
     console.print(table)
 
