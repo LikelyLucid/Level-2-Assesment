@@ -185,7 +185,7 @@ item_list = sort_list(item_list)
 within, outside = sort_list_budget(item_list, budget)
 pg_break()
 # print each list as a table
-if len(outside) > 0:
+if len(within) > 0:
 final_table("Within budget", within)
 print()
 if len(outside) > 0:
