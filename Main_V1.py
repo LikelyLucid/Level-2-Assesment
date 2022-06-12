@@ -131,6 +131,6 @@ while True:
         unit, amount = get_unit()
         price = check_price()
         append_list(product_name, unit, amount, price)
-        
+        item.list
 
 print(item_list)
