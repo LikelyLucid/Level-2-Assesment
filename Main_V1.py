@@ -63,13 +63,17 @@ def append_list(Item, Unit, Weight, Price):
 
 
 def search_csv(Item):
+    item_rows = []
     # search for item in Items.csv
     with open("Items.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             if row[0] == Item:
-                return row
-    return None
+                item_rows.append(row)
+    if len(item_rows) == 0:
+        return None
+    else:
+        return item_rows
 
 
 def sort_list(list):
