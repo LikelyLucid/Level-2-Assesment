@@ -107,6 +107,7 @@ budget = check_float("Enter the budget: $")
 
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
+    if product_name = 
     if search_csv(product_name) is not None:
         csv_list = search_csv(product_name)
         print("\nProduct has been entered before\n")
@@ -122,4 +123,4 @@ while True:
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
-                
+
