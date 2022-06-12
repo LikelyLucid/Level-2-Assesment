@@ -104,4 +104,4 @@ budget = check_float("Enter the budget: $")
 
 while True:
     product_name = Check_Blank("Enter the product name: ").lower()
-    
+    if 
