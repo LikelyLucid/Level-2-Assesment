@@ -153,7 +153,4 @@ while True:
 
 item_list = sort_list(item_list)
 within, outside = sort_list_budget(item_list, budget)
-print("Items in your budget: ")
-print(within)
-print("Items outside your budget: ")
-print(outside)
+
