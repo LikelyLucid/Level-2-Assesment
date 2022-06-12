@@ -138,6 +138,7 @@ while True:
                     price = "$" + str(item[3])
                     table.add_row(str(loop), name, weight, price)
                     loop += 1
+                console.print(table)
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
     else:  # if the product is not in the csv
