@@ -160,4 +160,5 @@ table = Table(title="Within Budget")
 table.add_column("Name")
 table.add_column("Weight")
 table.add_column("Price")
+table
 for item in within:
