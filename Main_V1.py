@@ -118,4 +118,4 @@ while True:
                 for item in csv_list:
                     print(item)
                 choice = Check_Blank("\nEnter the item number: ")
-                
+                item_list.append(csv_list[int(choice)])
