@@ -27,14 +27,14 @@ def Check_Blank(question):
         ):  # if text isn't empty then return it
             return text
         else:  # if text is empty then ask again
-            console.print("Please enter a valid name.", style="underline bold red"))
+            console.print("Please enter a valid name.", style="underline bold red")
 
 
 def get_unit():
     while True:
         unit = input("Enter the unit\nKg, L, ml, g: ").lower()
         if unit not in ["kg", "l", "ml", "g"]:
-            console.print("\nInvalid unit\n", style="underline bold red"))
+            console.print("\nInvalid unit\n", style="underline bold red")
         else:
             break
 
