@@ -121,7 +121,7 @@ def final_table(Title, list): # create a table with the list
     console.print(table) # print the table
 
 budget = check_float("Enter the budget: $ ")
-print("Enter ")
+print("Enter 'x' ")
 while True:
     product_name = Check_Blank(
         "Enter the product name: "
