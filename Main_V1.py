@@ -1,6 +1,6 @@
 import csv
 
-choice = 
+choice = ""
 
 def check_float(question):
     while True:
