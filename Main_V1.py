@@ -118,5 +118,5 @@ while True:
             else:
                 for item in csv_list:
                     print(item)
-                choice = int()
+                choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
