@@ -163,3 +163,4 @@ table.add_column("Price")
 table.add_column("Price per Kg")
 for item in within:
     table.add_row(item[0], item[2], item[3], item[4])
+console.print(table)
