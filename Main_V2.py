@@ -55,7 +55,7 @@ def check_price():
             price = float(input("Enter the price: $"))
             return price
         except ValueError:
-            print("\nInvalid price\n")
+            console.print("\nInvalid price\n")
 
 
 def append_list(Item, Unit, Weight, Price):
