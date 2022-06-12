@@ -106,4 +106,5 @@ while True:
     product_name = Check_Blank("Enter the product name: ").lower()
     if search_csv(product_name) is not None:
         print("\nProduct already exists\n")
+        while choice != 
         choice = input("Would you like to autocomplete? (y/n): ").lower()
