@@ -113,7 +113,14 @@ def sort_list_budget(list, budget):
     return within_budget, outside_budget  # return the two lists
 
 def final_table(Title, list)
-
+    table = Table(title="Outside Budget")
+table.add_column("Name")
+table.add_column("Weight")
+table.add_column("Price")
+table.add_column("Price per Kg")
+for item in outside:
+    table.add_row(str(item[0]), str(item[2]), str(item[3]), str(item[4]))
+console.print(table)
 
 budget = check_float("Enter the budget: $ ")
 
