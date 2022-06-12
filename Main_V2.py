@@ -131,7 +131,7 @@ while True:
                     print(loop, item)
                     name = item[0]
                     weight = str(item[2]) + " " + item[1]
-                    
+                    price = 
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
