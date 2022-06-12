@@ -124,4 +124,4 @@ while True:
                     loop += 1
                 choice = int(input("\nEnter the number of the item: "))
                 item_list.append(csv_list[int(choice)])
-
+    
